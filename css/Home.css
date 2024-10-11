@@ -1,0 +1,436 @@
+:root {
+  --primary: #6c2dc3;
+  --bg: #212173;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: var(--bg);
+  color: #ffffff;
+}
+
+/* Navbar Start*/
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: #6c2dc3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3.5790980672870436vw;
+  padding: 1rem;
+  z-index: 9999;
+}
+
+.navbar .logo a {
+  font-size: 7.158196134574087vw;
+  letter-spacing: -0.1em;
+  color: #ffffff;
+}
+
+.navbar .navbar-nav a {
+  font-size: 2.5053686471009304vw;
+  font-weight: 600;
+  color: #ffffff;
+  display: inline-block;
+  padding: 0.572655690765927vw 1.0737294201861132vw;
+}
+
+.navbar .navbar-nav a:hover {
+  background-color: #212173;
+  border-radius: 3vw;
+}
+
+#hamburger {
+  display: none;
+}
+
+/* Navbar End */
+
+.push-nav {
+  width: 100%;
+  height: 9.7vw;
+  background-color: black;
+}
+
+.home-background {
+  width: 100%;
+  display: flex;
+  background-image: url(../Gambar/Homebackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 53.40014316392269vw;
+}
+
+.home-background .isian {
+  width: 100%;
+  margin-left: 10%;
+  margin-top: 31.639226914817467vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-homebackground {
+  font-weight: 400;
+  font-size: 7.158196134574087vw;
+  padding-right: 4.867573371510379vw;
+  text-align: right;
+  letter-spacing: -0.1em;
+}
+
+.kata-kata-homebackground {
+  width: 100%;
+  font-weight: 400;
+  padding-right: 4.867573371510379vw;
+  font-size: 2.1474588403722263vw;
+  line-height: 2.1474588403722263vw;
+  text-align: right;
+}
+
+/* product categories */
+
+.push-product {
+  height: 0.2863278453829635vw;
+  background-color: black;
+}
+
+.product {
+  width: 100%;
+  height: 55.83392984967788vw;
+}
+
+.product .baris1 {
+  height: 27.91696492483894vw;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  gap: 0.2863278453829635vw;
+}
+
+.product .baris1 .headsetgaming a {
+  width: 100%;
+  height: 100%;
+}
+
+.product .baris1 .mousegaming a img {
+  width: 100%;
+  height: 100%;
+}
+.product .baris1 .keyboardgaming a img {
+  width: 100%;
+  height: 100%;
+}
+
+.product .baris2 .mousepadgaming a img {
+  width: 100%;
+  height: 100%;
+}
+.product .baris2 .headsetgaming a img {
+  width: 100%;
+  height: 100%;
+}
+
+.push-bawah {
+  background-color: black;
+  height: 0.5vw;
+}
+
+.product .baris2 {
+  height: 27.91696492483894vw;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  gap: 0.31vw;
+}
+
+/* Bagian Bawah */
+
+.bagian-bawah {
+  background-image: url(../Gambar/Kotak.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo-background-bawah {
+  font-weight: 400;
+  font-size: 7.158196134574087vw;
+  padding: 2.863278453829635vw;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.1em;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.bagian-bawah .kata-bagian-bawah {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5748031496062993vw;
+}
+
+.bagian-bawah .kata-bagian-bawah .kiri {
+  width: 100%;
+}
+
+.bagian-bawah .kata-bagian-bawah .kanan {
+  width: 100%;
+}
+
+/* footer Start */
+
+.push {
+  height: 4.294917680744453vw;
+}
+
+footer {
+  width: 100%;
+  height: 16.821760916249104vw;
+  margin: 0;
+  padding: 0;
+  background-color: #6c2dc3;
+  display: flex;
+  position: absolute;
+}
+
+footer a {
+  font-size: 7.158196134574087vw;
+  letter-spacing: -0.1em;
+  color: #ffffff;
+}
+
+footer .kotak-tulisan {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  padding-right: 3.5790980672870436vw;
+}
+
+footer .kotak-tulisan .links {
+  width: 17.89549033643522vw;
+  height: 11.811023622047244vw;
+  padding-top: 2.5053686471009304vw;
+  font-weight: 700;
+  font-size: 1.7895490336435218vw;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 0.7158196134574087vw;
+
+  color: #ffffff;
+}
+
+footer .connect {
+  padding-top: 2.5053686471009304vw;
+}
+
+footer .connect .logo-connect1 {
+  text-align: center;
+}
+
+footer .connect .logo-connect2 {
+  text-align: center;
+}
+
+footer .connect .logo-connect1 .instagram-logo {
+  width: 4.652827487473156vw;
+  height: 4.652827487473156vw;
+}
+
+footer .connect .logo-connect1 .facebook-logo {
+  width: 4.652827487473156vw;
+  height: 4.652827487473156vw;
+}
+
+footer .connect .logo-connect2 .twitter-logo {
+  width: 4.652827487473156vw;
+  height: 4.652827487473156vw;
+}
+
+footer .connect .logo-connect2 .youtube-logo {
+  width: 4.652827487473156vw;
+  height: 4.652827487473156vw;
+}
+
+footer .connect-us {
+  font-weight: 700;
+  font-size: 2.5053686471009304vw;
+  text-align: center;
+}
+
+footer .connect {
+  color: #ffffff;
+}
+
+footer .logo {
+  display: flex;
+  align-items: center;
+}
+
+/* footer end */
+
+/* Media Queries */
+
+/* laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 50%;
+  }
+  .push-nav {
+    height: 9.25vw;
+  }
+
+  /* tablet */
+  /* navbar start */
+  #hamburger {
+    display: inline-block;
+    color: #ffffff;
+    padding-right: 2.5vw;
+  }
+
+  .navbar-nav {
+    background-color: #ffffff;
+  }
+
+  .navbar .navbar-nav {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background-color: #212173;
+    width: 30rem;
+    height: 100vh;
+    transition: 0.5s;
+  }
+
+  .navbar .navbar-nav .active {
+    right: 0;
+  }
+
+  .navbar .navbar-nav a {
+    display: block;
+    margin: 16px;
+    text-align: center;
+  }
+  .navbar .navbar-nav a:hover {
+    background-color: #6c2dc3;
+  }
+
+  .push-nav {
+    height: 9.125vw;
+    width: 100%;
+  }
+  /* navbar end */
+
+  .product {
+    background-color: black;
+    /* height: 53.45vw; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1vw;
+  }
+
+  .product .baris1 .mousegaming a img {
+    width: 100%;
+    height: 100%;
+  }
+  .product .baris1 .keyboardgaming a img {
+    width: 100%;
+  }
+  .product .baris2 .mousepadgaming a img {
+    width: 100%;
+  }
+  .product .baris2 a img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .push-product {
+    height: 0.5vw;
+  }
+
+  .product .baris1 {
+    gap: 0.5vw;
+  }
+  .product .baris2 {
+    gap: 0.5vw;
+  }
+  .push-nav{
+    height: 10vw;
+  }
+}
+
+/* handphone */
+@media (max-width: 450px) {
+  html {
+    font-size: 30%;
+  }
+
+  #hamburger {
+    display: inline-block;
+    color: #ffffff;
+    padding-right: 2.5vw;
+  }
+
+  .navbar-nav {
+    background-color: #ffffff;
+  }
+
+  .navbar .navbar-nav {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background-color: #212173;
+    width: 30rem;
+    height: 100vh;
+    transition: 0.5s;
+  }
+
+  .navbar .navbar-nav.active {
+    right: 0;
+  }
+
+  .navbar .navbar-nav a {
+    display: block;
+    margin: 16px;
+    text-align: center;
+  }
+
+  .product {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 56vw;
+  }
+
+  .product .baris1 .mousegaming a img {
+    width: 100%;
+    height: 100%;
+  }
+  .product .baris1 .keyboardgaming a img {
+    width: 100%;
+  }
+  .product .baris2 .mousepadgaming a img {
+    width: 100%;
+  }
+  .product .baris2 a img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10vw;
+  }
+  .push-nav{
+    height: 10.3vw;
+  }
+}
